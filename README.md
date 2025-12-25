@@ -20,13 +20,21 @@ This project demonstrates a production-style data engineering pipeline built usi
 **🏗️ Architecture & Workflow**
 
 📁 Raw Large Dataset (45M Rows)  
+
 ⬇️  
+
 ⚙️ Python Chunked ETL (Resume-Safe)  
+
 ⬇️  
+
 🗄️ MySQL Staging Tables (MyISAM)  
+
 ⬇️  
+
 📊 Partitioned Fact Table (InnoDB)  
+
 ⬇️  
+
 📤 CSV Export → Analytics / BI  
 
 **🧠 Key Engineering Concepts Applied**
