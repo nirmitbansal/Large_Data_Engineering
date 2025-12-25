@@ -38,3 +38,15 @@ This project demonstrates a production-style data engineering pipeline built usi
 ✔️ Analytics-optimized InnoDB fact tables  
 ✔️ Batched inserts for performance  
 ✔️ Streaming exports for large datasets 
+
+**📁 Project Structure**
+```text
+📦 Large_Data_Engineering
+┣ 📂 data
+┃ ┗ 📂 raw
+┃ ┗ 📂 dac # Original dataset bundles
+┣ 📂 exports # Analytics-ready CSV output
+┣ 📂 scripts # ETL pipeline scripts
+┣ 📄 requirements.txt # Python dependencies
+┣ 📄 Sample Queries Output.docx
+┗ 📄 README.md
